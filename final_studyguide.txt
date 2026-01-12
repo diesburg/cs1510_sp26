@@ -18,7 +18,7 @@ Final Study Guide (Programming Exam)
 
 Final Study Guide (Concepts Exam)
 ---------------------------------
-- The concepts exam will be open-book, open-notes. (This means access to the zyBook and class websites are permitted.  Access to your own written or printed notes are permitted.  Going offsite to websites like StackOverflow, google, or AI are not permitted.)
+- The concepts exam will be closed-book and closed-notes, with the exception of the both sides of the 2-page reference help sheet (distributed at the test) and 1 side of 1 page of handwritten notes (you bring to the exam).  If you cannot read your own handwriting, you may type the notes, but the notes must be no smaller than 11-pt font.
 
 - You will not be able to use IDLE or Python to type in code and run it.  Instead, I want to see that you can read code and tell me what it does.
 
