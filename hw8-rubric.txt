@@ -1,0 +1,22 @@
+Codes
+-----
+
+A	-2	How do you keep the player stats and names together (list of mini lists)?
+
+B	-2	How are you going to print the top 10?  Through a loop?
+K	-4	Where do you print the top 10?
+
+C	-2	What are the concrete steps?  What are the abstract steps? 
+                (need to show them somehow by shading, starring, or some other way)
+
+H	-2	Too many modules/functions.  You will want to write fewer functions when
+                implementing the program.
+
+E	-2	Which stats are you getting from the file?
+F	-4	Where do you read the file to get the stats?
+L	-2	How do you read the file?  Line by line?  Into a list of lines?
+
+G	-2	Where do you split each line of the file?
+
+J	-3	Where do you sort the stats?
+

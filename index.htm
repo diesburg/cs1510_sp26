@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CS1510 Intro to Computing</title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="styles/style.css" />
+
+</head>
+<body>
+<div id="wrap">
+
+  <div id="header">
+    <h1><a name="Home"></a>CS 1510 Intro to Computing</h1>
+    <h2></h2>
+  </div>
+  
+  <div id="bio">
+    <div id="about">
+      <div id="photo-bg"> <img border="0" src="cover.jpg" width="170" height="195"></div>
+      
+    
+      <h3>Basic Information</h3>
+      <p>This course is the computer science department’s introductory course. The two primary goals are to introduce the general field of computer science and to introduce the concept of programming.</p>
+      <p>This website is subject to change as more content is added.  Check it often!</p>
+    </div>
+      
+
+
+    <div id="contact-details">
+<h3>Useful Links</h3>
+      <h5><a href="syllabus.html">Syllabus</a></h5>
+	  <h5><a href="textbook.html">Textbook Information</a></h5>
+	  <h5><a href="introComputingReferenceSheet.pdf">2-Page Reference Help Sheet</a></h5>
+	  <h5><a href="homework/policies_and_forms/collection_policy.htm">Homework Submission Policy</a></h5>
+	   <h5><a href="https://www.python.org">Install Python</a></h5>
+		<h5><a href="https://docs.google.com/forms/d/e/1FAIpQLSe0ZAx5udH25Ph5e6v-3VcSoLw9GbiOF_8-S9LJa1NcSzFOTA/viewform?usp=sf_link">Anonymous Feedback</a></h5>
+		
+		
+      
+    </div>
+  </div>
+  
+  
+<div class="line"></div>  
+  
+<div id="simple">
+<!--<div align="left">-->
+<p><b>Readings before class - </b>ZyBook "participation" activities and readings are due <em>before the class they are assigned but are graded on Fridays at 11:59pm</em>. &nbsp;Each section usually takes on average 10 minutes complete (although some might take a little more time and some might take a little less time). &nbsp;"Challenge" activities are optional and may be used as examples in class. Chapter sections marked as optional will not be graded, but they will better help you understand Python.</p>
+<p><b>Topics/Notes - </b> Any class notes will be linked here. If you miss a class, screencasts are provided through eLearning. (Note - screencasts are only meant as note suppliments. You may miss things written on the board or in-class activities/bonus points.) </p>
+<p><b>Assignments</b> - Assignments should be submitted on the <a href="https://autolab.cs.uni.edu">program submission system</a> before they are due.  The system will automatically run your program and report any errors.  If you do not understand what the system means if it returns an error, it is your responsibility to ask.  Assignments can be turned in up to two days late with a 10% penalty deducted per day.</p>
+<br><br>
+	
+	
+<a id="week01"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #1</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  	
+  <tr>
+    <td height="44" bgcolor="#D8D8D8"> 1/22</td>
+	<td bgcolor="#D8D8D8">Get the online textbook:<br> <a href="textbook.html">Instructions here</a>    </td>
+    <td bgcolor="#D8D8D8"><a href="sessions/intro/intro.html">Class Notes</a> - Course Introductions </td>
+	<td bgcolor="#D8D8D8">No programming assignment this first week.</td>
+  </tr>
+<tr>
+    <td height="22" bgcolor="#D8D8D8"> 1/23</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+    <td bgcolor="#D8D8D8">Lab #1 in 112 (check your assigned lab times)</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="22" bgcolor="#D8D8D8"> 1/24&nbsp;</td>
+    <td bgcolor="#D8D8D8">zyBook 1.1 - 1.2</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s01/s01.html">Class Notes</a> - Understanding the history and basics of computers</td>
+    <td bgcolor="#D8D8D8">zyBooks participation due for week #1</td>
+  </tr>
+	</table>
+	<p></p>
+	
+
+<a id="week02"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #2</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  	
+  <tr>
+    <td bgcolor="#FFFFFF">1/27</td>
+    <td bgcolor="#FFFFFF">zyBook 1.4 -1.6</td>
+    <td bgcolor="#FFFFFF"><a href="https://docs.google.com/document/d/1ehbI7r98GEdBevorhdHjFy3O2NjogF613ljgNcXmrJo/edit?usp=sharing">Advice from last fall's students</a> - Log into your UNI account to view<br>
+      Finish class notes from Friday</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF"> 1/29&nbsp;</td>
+    <td bgcolor="#FFFFFF">zyBook 1.7</td>
+    <td bgcolor="#FFFFFF">Starting to write programs<br>(Notes and examples from zyBook)</td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">1/30</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+    <td bgcolor="#FFFFFF"> Lab #2 in WRT 112</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">1/31<br></td>
+    <td bgcolor="#FFFFFF">zyBook 1.8 - 1.10<br>HW #1</td>
+    <td bgcolor="#FFFFFF">Starting to write programs<br>
+        (Notes and examples from zyBook)</td>
+    <td bgcolor="#FFFFFF">zyBooks participation due for week #2</td>
+  </tr>
+	 
+	</table>
+	
+	
+<p></p>
+<a id="week03"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #3</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  
+	 
+<tr>
+    <td bgcolor="#D8D8D8"> 2/3</td>
+    <td bgcolor="#D8D8D8">zyBook 1.11 - 1.13</td>
+    <td bgcolor="#D8D8D8"> Notes - More with data and types<br>
+        (Notes and examples from zyBook)</td>
+    <td bgcolor="#D8D8D8"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">2/5</td>
+    <td bgcolor="#D8D8D8"> zyBook 2.1 - 2.2</td>
+    <td bgcolor="#D8D8D8">Notes - Introducing Branching in Python<br>(Notes and examples from zyBook)</td>
+    <td bgcolor="#D8D8D8">HW #1 due</td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8"> 2/6</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+    <td bgcolor="#D8D8D8"> Lab #3 in WRT 112</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">2/7</td>
+    <td bgcolor="#D8D8D8"> zyBook 2.3 - 2.4<br>HW #2</td>
+    <td bgcolor="#D8D8D8">Notes - Boolean and Relational Operators<br>(Notes and examples from zyBook)</td>
+    <td bgcolor="#D8D8D8">zyBooks participation due for week #3</td>
+  </tr>
+	</table>
+	
+	<p></p>
+<a id="week04"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #4</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  
+	
+	 <tr>
+    <td bgcolor="#FFFFFF"> 2/10</td>
+    <td bgcolor="#FFFFFF">zyBook 2.5 - 2.7</td>
+    <td bgcolor="#FFFFFF">Notes - More if/else<br>(Notes and examples from zyBook)</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">2/12</td>
+    <td bgcolor="#FFFFFF">zyBook 3.1 - 3.3<br></td>
+	  <td bgcolor="#FFFFFF"><a href="sessions/s09/s09.html">Class Notes</a> - Introducing For and While Loops</td>
+    <td bgcolor="#FFFFFF">HW #2 due</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF"> 2/13</td>
+    <td bgcolor="#FFFFFF">&nbsp; </td>
+    <td bgcolor="#FFFFFF">Lab #4 in WRT 112</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">2/14<br></td>
+    <td bgcolor="#FFFFFF">zyBook 3.4 - 3.5<br>HW #3</td>
+	  <td bgcolor="#FFFFFF"><a href="sessions/s10/s10.html">Class Notes</a> - Lab Debrief and More Practice</td>
+    <td bgcolor="#FFFFFF">zyBooks participation due for week #4</td>
+  </tr>
+	</table>
+
+	
+	
+	
+	<p></p>
+<a id="week05"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #5</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  
+ <tr>
+    <td bgcolor="#D8D8D8">2/17</td>
+    <td bgcolor="#D8D8D8">zyBook 3.6 - 3.7</td>
+	  <td bgcolor="#D8D8D8"><a href="sessions/s11/s11.html">Class Notes</a> - Advanced Looping</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+  </tr>
+    <tr>
+    <td bgcolor="#D8D8D8">2/19</td>
+    <td bgcolor="#D8D8D8">zyBook 3.8 - 3.9</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s12/s12.html">Class Notes</a> - Nested looping</td>
+    <td bgcolor="#D8D8D8">HW #3 due</td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">2/20</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+    <td bgcolor="#D8D8D8">Lab #5 in WRT 112</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">2/21</td>
+    <td bgcolor="#D8D8D8">HW #4</td>
+    <td bgcolor="#D8D8D8">Lab 5 Demonstration</td>
+    <td bgcolor="#D8D8D8">zyBooks participation due for week #5</td>
+   
+    </tr>
+	</table>	
+	
+	
+	
+<p></p>
+<a id="week06"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #6</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  	
+
+   <tr>
+    <td bgcolor="#FFFFFF"> 2/24</td>
+    <td bgcolor="#FFFFFF">Powerpoint notes</td>
+    <td bgcolor="#FFFFFF"><a href="sessions/s14/s14.html">Class Notes</a>- Algorithms and Program Development</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+    <tr>
+    <td bgcolor="#FFFFFF">2/26</td>
+		<td bgcolor="#FFFFFF">zyBook 4.1 - 4.2</td>
+		<td bgcolor="#FFFFFF"><a href="sessions/s15/s15.html">Class Notes</a> - Introduction to Strings</td>
+    <td bgcolor="#FFFFFF">HW #4 due</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">2/27</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+    <td bgcolor="#FFFFFF">Lab #6 in WRT 112</td> 
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+	  <td bgcolor="#FFFFFF">2/28<br></td>
+    <td bgcolor="#FFFFFF">HW #5</td>
+	  <td bgcolor="#FFFFFF"><a href="sessions/s16/s16.html">Class Notes</a> - Working with Strings</td>
+    <td bgcolor="#FFFFFF">zyBooks participation due for week #6</td>
+  </tr>
+	</table>
+
+
+	<p></p>
+<a id="week07"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #7</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  
+ <tr>
+    <td bgcolor="#D8D8D8">3/3&nbsp;</td>
+    <td bgcolor="#D8D8D8">zyBook 4.3 - 4.4</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s17/s17.html">Class Notes</a> - More with Strings - Methods</td>
+	<td bgcolor="#D8D8D8">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8"> 3/5</td>
+	  <td bgcolor="#D8D8D8">zyBook 4.5</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s18/s18.html">Class Notes</a> - More with Strings - Penny Math</td>
+    <td bgcolor="#D8D8D8">HW #5 due</td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">3/6</td>
+    <td bgcolor="#D8D8D8">&nbsp; </td>
+    <td bgcolor="#D8D8D8"> Lab #7 in WRT 112</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">3/7</td>
+	  <td bgcolor="#D8D8D8">&nbsp;</td>
+    <td bgcolor="#D8D8D8">Lab 7 Debrief and Midterm Exam Prep<br>
+		<a href="exam1-study_guide.txt">Preparing for the Exams</a><br>
+		<a href="Exam1_QuestionBank.pdf">Programming Exam Question Bank</a><br>
+		<a href="introComputingReferenceSheet.pdf">Reference Sheet</a> - you may use the first page on the exam</td>
+    <td bgcolor="#D8D8D8">zyBooks participation due for week #7</td>
+  </tr>
+	</table>
+	   
+<p></p>
+<a id="week08"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #8</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  	 
+	 <tr>
+    <td bgcolor="#FFFFFF">3/10</td>
+    <td bgcolor="#FFFFFF">Extra Credit Day<br>Bring your laptops</td>
+    <td bgcolor="#FFFFFF">Programming Exam Practice</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">3/12</td>
+    <td bgcolor="#FFFFFF"><b>(Change) No Class</b></td>
+    <td bgcolor="#FFFFFF">Use today to study </td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+	 
+	   <tr>
+    <td bgcolor="#FFFFFF">3/13</td>
+    <td bgcolor="#FFFFFF"><b>Note: Test in 112 Wright Hall</b></td>
+    <td bgcolor="#FFFFFF"> In-lab Exam #1</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+
+	 <tr>
+    <td bgcolor="#FFFFFF">3/14</td>
+		 <td bgcolor="#FFFFFF"><b>(Change) Test in 112 Wright Hall</b></td>
+    <td bgcolor="#FFFFFF">Concepts Exam #1</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+	</table>   
+
+	
+
+<p></p>
+<a id="week09"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #9</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  	 
+	 <tr>
+    <td bgcolor="#D8D8D8"> 3/24</td>
+    <td bgcolor="#D8D8D8">zyBook 6.1-6.3 </td>
+    <td bgcolor="#D8D8D8">Defining your own functions (zyBook used in class)  </td>
+      <td bgcolor="#D8D8D8"> </td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">3/26</td>
+    <td bgcolor="#D8D8D8">zyBook 6.4-6.6</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s24-25/s24-25.html">Class Notes</a> - More on functions</td>
+    <td bgcolor="#D8D8D8"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">3/27</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+    <td bgcolor="#D8D8D8">Lab #8 in WRT 112</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">3/28</td>
+    <td bgcolor="#D8D8D8">zyBook 7.1-7.3<br>HW #6</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s26/s26.html">Class Notes</a> - Introducing Lists</td>
+    <td bgcolor="#D8D8D8">zyBooks participation due for week #9</td>
+	 </tr>
+	</table>	
+		
+<p></p>
+<a id="week10"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #10</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  	 
+	   <tr>
+    <td bgcolor="#FFFFFF">3/31</td>
+    <td bgcolor="#FFFFFF">zyBook 7.4-7.5</td>
+    <td bgcolor="#FFFFFF"><a href="sessions/s27/s27.html">Class Notes</a> - More Lists</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">4/2</td>
+    <td bgcolor="#FFFFFF">zyBook 7.6-7.8</td>
+	<td bgcolor="#FFFFFF"><a href="sessions/s28/s28.html">Class Notes</a> - Lists - Indexing and Sorting</td>
+	<td bgcolor="#FFFFFF">HW #6 due</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">4/3</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+    <td bgcolor="#FFFFFF">Lab #9 in WRT 112</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">4/4</td>
+    <td bgcolor="#FFFFFF">HW #7</td>
+    <td bgcolor="#FFFFFF"><a href="sessions/s22/s22.html">Class Notes</a> - Intro to Files </td>
+    <td bgcolor="#FFFFFF">zyBooks participation due for week #10</td>
+  </tr>
+	</table>	 
+
+	
+	
+	<p></p>
+<a id="week11"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #11</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  
+	  <tr>
+    <td bgcolor="#D8D8D8">4/7</td>
+    <td bgcolor="#D8D8D8">zyBook 5.1-5.2</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s21/s21.html">Class Notes</a> - More Files</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+  </tr>
+  
+ 
+  <tr>
+    <td bgcolor="#D8D8D8"> 4/9</td>
+    <td bgcolor="#D8D8D8"></td>
+    <td bgcolor="#D8D8D8"><a href="sessions/new01/s32.html">Class Notes</a> - Using Files and Lists to Parse Text</td>
+    <td bgcolor="#D8D8D8">HW #7 due</td>
+
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8"> 4/10</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+    <td bgcolor="#D8D8D8">Lab #10 in WRT 112</td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+  </tr>
+   <tr>
+    <td bgcolor="#D8D8D8"> 4/11</td>
+    <td bgcolor="#D8D8D8">HW #8</td>
+    <td bgcolor="#D8D8D8">Lab 10 review</td>
+	   <td bgcolor="#D8D8D8">zyBooks participation due for week #11</td>
+  </tr>
+	</table> 
+	
+
+	
+<p></p>
+<a id="week12"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #12</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  
+  <tr>
+    <td bgcolor="#FFFFFF">4/14</td>
+    <td bgcolor="#FFFFFF">
+	  zyBook 8.1 and 8.2</td>
+	 <td bgcolor="#FFFFFF"><a href="sessions/s32/s32.html">Class Notes</a> - Introduction to Dictionaries</td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+	 
+  <tr>
+    <td bgcolor="#FFFFFF">4/16</td>
+    <td bgcolor="#FFFFFF">zyBook 8.3 and 8.4</td>
+    <td  bgcolor="#FFFFFF">Dictionary frequency analaysis sorted by key or value:<br>
+		<a href="letterCount_KeySort.py">Letter Count (Alphabetical Sort)</a> - Sort dictionary by key<br>
+		<a href="letterCount.py">Letter Count (Frequency Sort)</a> - Sort dictionary by frequencey/value</td>
+      <td bgcolor="#FFFFFF">HW #8 due</td>
+  </tr>
+   <tr>
+    <td bgcolor="#FFFFFF">4/17</td>
+    <td bgcolor="#FFFFFF">&nbsp; </td>
+    <td bgcolor="#FFFFFF">Lab #11 in WRT 112</td>
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+		
+
+   <tr>
+    <td bgcolor="#FFFFFF">4/18<br></td>
+	   <td bgcolor="#FFFFFF">HW #9</td>
+	   <td bgcolor="#FFFFFF">Introduce Homework 9, more dictionary examples<br>(Lab 11 explanation on eLearning)</td>
+	   <td bgcolor="#FFFFFF">zyBooks participation due for week #12 </td>
+	</tr>
+	</table>
+ 
+	
+	
+<p></p>
+<a id="week13"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #13</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  
+     <tr>
+    <td bgcolor="#D8D8D8">4/21</td>
+    <td bgcolor="#D8D8D8">zyBook 9.3-9.4</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s34/s34.html">Class Notes</a>- Namespaces and Memory </td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+
+  </tr>
+	<tr>
+    <td bgcolor="#D8D8D8"> 4/23</td>
+    <td bgcolor="#D8D8D8">&nbsp;zyBook 10.1</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s35/s35.html">Class Notes</a> -  Sets </td>
+	<td bgcolor="#D8D8D8">HW #9 due</td>
+  </tr>
+<tr>
+    <td bgcolor="#D8D8D8"> 4/24</td>
+    <td bgcolor="#D8D8D8">&nbsp;    </td>
+    <td bgcolor="#D8D8D8">Lab #12 in WRT 112</td>
+	<td bgcolor="#D8D8D8">&nbsp;</td>
+   </tr>
+  <tr>
+    <td bgcolor="#D8D8D8"> 4/25</td>
+    <td bgcolor="#D8D8D8">HW #10</td>
+	  <td bgcolor="#D8D8D8">(Lab 12 Explanation on eLearning)</td>
+	  <td bgcolor="#D8D8D8">zyBooks participation due for week #13 </td>
+	</tr>
+	   </table>
+	  
+	  
+	  
+	  
+<p></p>
+<a id="week14"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #14</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  	  
+
+  <tr>
+    <td bgcolor="#D8D8D8">4/28</td>
+    <td bgcolor="#D8D8D8">zyBook 11.1-11.3</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s36/s36.html">Class Notes</a> -  Intro to Searching  </td>
+    <td bgcolor="#D8D8D8"></td>
+  </tr>
+   <tr>
+    <td bgcolor="#D8D8D8">4/30</td>
+    <td bgcolor="#D8D8D8">zyBook 11.5&nbsp;&nbsp;</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s37/s37.html">Class Notes</a> - More Searching </td>
+    <td bgcolor="#D8D8D8">HW #10 due</td>
+  </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">5/1</td>
+    <td bgcolor="#D8D8D8"></td>
+    <td bgcolor="#D8D8D8">Lab #13 in WRT 112
+	  </td>
+    <td bgcolor="#D8D8D8">&nbsp;</td>
+  </tr>
+   <tr>
+    <td bgcolor="#D8D8D8">5/2</td>
+    <td bgcolor="#D8D8D8">zyBook 11.6-11.8</td>
+    <td bgcolor="#D8D8D8"><a href="sessions/s38/s38.html">Class Notes</a> - Sorting</td>
+	<td bgcolor="#D8D8D8">zyBooks participation due for week #14</td>
+  </tr>
+	  </table>
+	
+	
+<p></p>
+<a id="week15"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #15</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  	
+	  <tr bgcolor="#FFFFFF">
+    <td>5/5</td>
+    <td>Anonymous Survey on eLearning for participation points </td>
+    <td><a href="sessions/s40/s40.html">Programming Final Review</a> - In-class lab final review session<br><br>
+		<a href="final_studyguide.txt">Preparing for the Exams</a><br>
+		<a href="Exam2_QuestionBank.pdf">Programming Exam Question Bank</a><br>
+		<a href="introComputingReferenceSheet.pdf">Reference Sheet</a> - you may use both pages on the exam</td>
+    <td>&nbsp;</td>
+  </tr>
+	  <tr bgcolor="#FFFFFF">
+    <td>5/7</td>
+    <td><b>No Class</b></td>
+    <td>No class, study for programming final</td>
+    <td>&nbsp;</td>
+  </tr>
+	
+		  <tr bgcolor="#FFFFFF">
+    <td>5/8</td>
+    <td><b>Note: Test in 112 Wright Hall</b>    </td>
+    <td>In-Lab Exam #2</td>
+    <td>&nbsp;</td>
+  </tr>
+	<tr>
+    <td bgcolor="#FFFFFF"> 5/9</td>
+    <td bgcolor="#FFFFFF"></td>
+	  <td bgcolor="#FFFFFF"><a href="sessions/s41/s41.html">Concepts Final Review</a> </td>
+	<td bgcolor="#FFFFFF">Anonymous Survey due for week #15</td>
+   </tr>
+	</table>
+
+<p></p>	
+	
+<p></p>
+<a id="week16"></a>	  
+<table border="3" cellpadding="1" cellspacing="1" align="center">
+  
+	 <tr bgcolor="#FFA500">	
+	  <td colspan="4" text-align="center"><b>Week #16</b></td>
+  </tr>
+	<tr bgcolor="#D8D8D8" bordercolor="#000000"  >
+    <td width="75"><b>Date</b></td>
+    <td width="200" ><b>Activities Assigned</b></td>
+    <td width="350" ><b>Topics/Notes</b></td>
+    <td width="300" ><b>Due Today by 11:59pm </b></td>
+  </tr>  	
+  
+
+ </tr>
+  <tr>
+    <td bgcolor="#D8D8D8">Monday, May 12th</td>
+    <td bgcolor="#D8D8D8"></td>
+    <td bgcolor="#D8D8D8">Final Exam in WRT 112 at 10:00am</td>
+    <td bgcolor="#D8D8D8"></td>
+  </tr>
+  
+	 
+	</table>
+<p></p>
+	<p></p>
+  </div>
+	</div>
+	</body>
+</html>
+	
+	
+	
+	
+	
+	

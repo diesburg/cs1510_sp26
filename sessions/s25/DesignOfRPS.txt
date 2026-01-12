@@ -1,0 +1,28 @@
+Sarah Diesburg
+
+Design Document for program RPS.py
+
+
+General Description: This program holds functions for a game that 
+		automatically plays rock,paper,scissors 
+		with two computer players.
+
+How to run: Run RPS.py and issue rps(numberOfgames), where numberOfGames is a 
+	positive int representing the total number of games played.
+
+Inputs: Number of games (int)
+
+Outputs: Returns string showing total ties, wins of player one,
+         and wins of player 2
+
+Main Algorithm: 
+	We take in the number of games played and check that
+	the input is a number and is positive.  Next, we loop for the number
+	of games to be played and for each game do the following:
+	* get player1 and player2 weapons
+	* check if the players tie, win, or loose
+	* increment counters for total ties, player1 wins, or player 2 wins
+
+	At the end of the program we ouptut the number of ties, player1 wins,
+	and player2 wins
+

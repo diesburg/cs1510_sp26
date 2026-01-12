@@ -1,0 +1,58 @@
+Sleepers,Kevin Bacon,Dustin Hoffman,Brad Pitt
+Troy,Diane Kruger,Brad Pitt
+Meet Joe Black,Anthony Hopkins,Brad Pitt
+Oceans Eleven,Julia Roberts,George Clooney,Brad Pitt
+Seven,Morgan Freeman,Brad Pitt
+Mr & Mrs Smith,Angelina Jolie,Brad Pitt
+You have got mail,Meg Ryan,Tom Hanks
+Apollo 13,Tom Hanks
+Sleepless in Seattle,Meg Ryan,Tom Hanks
+Catch Me If You Can,Tom Hanks,Leonardo Di Caprio
+National Treasure,Diane Kruger
+The Lost City,Dustin Hoffman
+Hannibal,Julianne Moore,Anthony Hopkins
+The Edge,Anthony Hopkins,Alec Baldwin
+Proof,Anthony Hopkins,Gwyneth Paltrow
+Pearl Harbor,Ben Affleck,Alec Baldwin
+Bone Collector,Denzel Washington,Angelina Jolie,Morgan Freeman
+Lara Croft Tomb Raider,Angelina Jolie
+The Siege,Bruce Willis,Denzel Washington
+American Gangster,Russell Crowe,Denzel Washington
+Pretty Woman,Julia Roberts
+Runaway Bride,Julia Roberts
+Shakespeare in Love,Gwyneth Paltrow
+Bounce,Ben Affleck,Gwyneth Paltrow
+Gladiator,Russell Crowe
+A Beautiful Mind,Russell Crowe
+Cinderella Man,Russell Crowe,Renee Zellweger
+Rocky,Sylvester Stallone
+Rambo,Sylvester Stallone
+Assassins,Julianne Moore,Sylvester Stallone
+Edward Scissorhands,Johnny Depp
+The Pirates of Caribbean,Johnny Depp
+Finding Neverland,Kate Winslet,Johnny Depp
+Titanic,Kate Winslet,Leonardo Di Caprio
+Blood Diamond,Leonardo Di Caprio
+The Departed,Matt Damon,Leonardo Di Caprio
+The Mask of Zorro,Catherine Zeta Jones,Antonio Banderas
+Desperado,Salma Hayek,Antonio Banderas
+Top Gun,Tom Cruise
+Mission Impossible,Tom Cruise
+Jerry Maguire,Renee Zellweger,Tom Cruise
+A Few Good Men,Kevin Bacon,Tom Cruise
+Intolerable Cruelty,Catherine Zeta Jones,George Clooney
+Good Will Hunting,Matt Damon,Ben Affleck
+Bourne Identity,Matt Damon
+Bourne Ultimatum,Matt Damon
+Million Dollar Baby,Morgan Freeman
+Bruce Almighty,Jim Carrey,Morgan Freeman
+Die Hard,Bruce Willis
+The Sixth Sense,Bruce Willis
+Pulp Fiction,Bruce Willis
+Wild Wild West,Salma Hayek,Will Smith
+Pursuit of Happyness,Will Smith
+Hitch,Will Smith
+Men in Black,Will Smith
+The Mask,Jim Carrey
+Ace Ventura,Jim Carrey
+Me-Myself & Irene,Jim Carrey,Renee Zellweger

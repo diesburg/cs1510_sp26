@@ -1,0 +1,21 @@
+def merge(lyst1, lyst2):
+	output = []
+	while lyst1 not empty and lyst2 not empty:
+		if first element of lyst1 < lyst2
+			add lyst1 to output
+		elif first elemet of lyst1 > lyst2
+			add lyst2 to output
+		else: #same
+			add lyst1 to output
+	return output
+
+def mergeSort(lyst):
+	if len(lyst)==1:
+		return lyst
+	else:
+		pile1=firsthalf of lyst
+		pile2=secondhalf of lyst
+		p1=mergeSort(pile1)
+		p2=mergeSort(pile2)
+		p3=merge(p1,p2)
+		return p3

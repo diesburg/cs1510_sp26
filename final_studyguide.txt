@@ -1,0 +1,64 @@
+Final Study Guide (Programming Exam)
+------------------------------------
+- The programming exam will be closed book, closed notes during your lab time with the exception of a printout of both sides of the two-page reference help sheet.
+
+- Practice coding without any help (except for the two-page reference help sheet) in IDLE from the final test bank. Do this to determine what you need to practice.  You want to spend no more than 15 minutes per problem on average.
+
+- This exam WILL NOT be autograded.  I will hand-grade all your submissions.  I will also give partial points for trying something, and the closer you get to the actual solution, the more points you will earn.
+
+- This also means that you must test your programs yourself and make sure they work.  (The autograder will not be there to test your programs.) 
+
+- Use the test bank of problems to study.
+
+- If you encounter a program that is hard on the exam, skip it to do the ones you know you can do.  Come back to the hard one when you have time at the end.
+
+- The test will take place on the last Thursday lab time before finals week.  If you cannot attend this time, you must let me know.
+
+
+
+Final Study Guide (Concepts Exam)
+---------------------------------
+- The concepts exam will be open-book, open-notes. (This means access to the zyBook and class websites are permitted.  Access to your own written or printed notes are permitted.  Going offsite to websites like StackOverflow, google, or AI are not permitted.)
+
+- You will not be able to use IDLE or Python to type in code and run it.  Instead, I want to see that you can read code and tell me what it does.
+
+- The exam will be TIMED TO 50 MINUTES during the final class period.  In the past, most people finish in a half hour.
+
+- If you cannot attend your final on finals week, please send me an email.
+
+- The final is cumulative but will focus on materials covered since the last exam.  To practice for the exam, please study the notes, materials, and readings posted on the class webpage.  You may also want to practice by writing code for and answering the following:
+
+Lists:
+	What are they?
+	How do you add items to a list (.append(),  .insert())
+	How do you remove things from a list (.pop(), and .pop(index))
+	How do YOU search a list? (writing code that does this, not using native methods)
+	What are the different ways to search a list that we discussed in class?  What are their Big O analysis values?  Which one was more efficient for large lists, and why?
+
+Dictionaries:
+	What are they?
+	How do you access an individual value based on its key?
+	How do you change/set a key to a particular value?
+	How do you get access to all of the keys of a dictionary?
+	How do you get access to all of the values of a dictionary?
+	How do you display the contents of a dictionary sorted by key?  How about sorted by value?
+
+Sets:
+	What are they?
+	How do you create an empty set?
+	How do you add items to a set?
+	How do you check to see if an item is in a set?
+	How do you use the common features such as union, intersection, and set difference?
+
+Files:
+	What are they?
+	How do you read a file, line by line?
+	How do you split a file's contents into separate words?
+	How do you write to a file?
+	How/when do you open and close files?  Why?
+
+- This list is not exhaustive.  Please do not forget about strings, loops, conditional statements, and other programming concepts you learned earlier in the class.
+
+- Don't forget the last two weeks of class and the searching/sorting information we learned.
+
+

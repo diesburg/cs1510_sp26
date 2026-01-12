@@ -1,0 +1,73 @@
+
+Syntax
+------
+English semantics - Meaning of what you are trying to say
+		  - Meaning of the vocabulary symbols
+
+English syntax 	- has a subject and a predicate
+		- adjectives come before noun
+		- grammatical structure
+
+People learning a new language sometimes garble both
+	ex. noun before adjective, mixing up tenses
+	ex. "cows flow supremely" -- wrong noun/verbs
+
+Ambiguous Sentence
+-------------------
+"Did you see the guy with the telescope?" 
+
+Computer languages must be structured to not be ambiguous
+
+
+What is a Computer?
+--------------------
+- Some stuff here is going to be a little over-generalized
+- If you take advanced courses in the future, you could come back to me and say that I lied.
+- Want to give you a general idea about how things work so we have a mental starting point to work from
+- Will get more specific as the semester goes along.
+
+
+Iowa State Computer
+-------------------
+
+Kown as the ABC 
+Atanasoff-Berry Computer
+Atanasoff was a professor, Berry was a graduate student
+System weighed over 700 lbs.
+One of the first electronic digital computing devices.
+Conceived in 1937 and successfully tested in 1942
+Was special-purpose (not general)
+Patent issue with ENIAC, ABC won.
+
+
+
+Hardware
+---------
+What is an input device?
+What is an output device?
+
+CPU
+----
+Central Processing Unit
+Control Unit - like the hands of the computer, fetching and getting things ready for the ALU to process
+ALU
+
+Vacuum Tubes
+------------
+- invented in 1906 by American physicist Lee De Forest
+- size of a human thumb (like Christmas tree lights)
+- controls electronic currents (on or off)
+	- off is a zero
+	- on is a one
+- very large and hot!
+- computers of the 1940's and 1950's had around 18,000 or so
+
+http://homepage.cs.uri.edu/faculty/wolfe/book/Readings/Reading03.htm
+
+
+Transistors
+-----------
+- invented in 1947
+- tiny and cooler
+- "integrated circuit" -- collection of tiny transistors that are connected together when the transistor is manufactured.
+ - modern transistors are between 90-15 nanometers in size!

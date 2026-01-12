@@ -1,0 +1,63 @@
+Please tell me the data type of the for loop iterator based on the context.
+
+thing = "As you lead us onto fame and honor, FIGHT FIGHT FIGHT! Will be our cry."
+
+1. 
+for element in thing:
+
+What is element?
+
+2. 
+thing = thing.split()
+
+for element in thing:
+
+What is element?
+
+3. 
+thing = thing.split()
+for element in thing:
+	for something in element:
+
+What is something?
+
+---------------------
+
+
+
+
+4. 
+sentence = "as you lead us onto fame and honor FIGHT FIGHT FIGHT will be our cry"
+
+Write a function called countWords(sentence) that takes in a string and prints each word followed by a count.  Don't worry about "cleaning" the sentence -- e.g. lowercasing and removing punctuation.
+
+
+
+
+5. 
+listOfGrades = [70.5, 81.2, 77.4, 90, 85]
+
+Write a function called findAverage(a_list) that takes in a list of numbers and returns the average.
+
+
+
+
+
+6. 
+Bob = {'France','Germany','Canada'}
+Alice = {'Canada','Jamaica','Brazil'}
+
+Write a function called placesInCommon(set1, set2) that takes in two sets and returns a list of the places in common that they have visited?
+
+
+
+
+7. Create a function called lineNumbers() that takes no parameters.  It should
+open a file called 'test.txt', read each line, and produce an output file
+with line numbers at the beginning of each line.  Let's name the output file
+output.txt.
+
+
+
+
+
