@@ -19,11 +19,4 @@ average = total/numberOfQuizzes
 print("The average quiz score is " + str(average))
 
 
-##
-##for variableName in iterableDataStrurcture:
-##    suite of code line 1
-##    suite of code line 2
-##    ...
-##    suite of code line n
-##
-##First line of code not in the suite
+
